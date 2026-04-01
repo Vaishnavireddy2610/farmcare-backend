@@ -1,0 +1,57 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.farmcare:farm-care-backend >-------------------
+[INFO] Building farm-care-backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ farm-care-backend ---
+[INFO] Deleting C:\Users\dell\Projects\FarmCare\backend\farm-care-backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ farm-care-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ farm-care-backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 15 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ farm-care-backend ---
+[INFO] skip non existing resourceDirectory C:\Users\dell\Projects\FarmCare\backend\farm-care-backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ farm-care-backend ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug release 17] to target\test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/dell/Projects/FarmCare/backend/farm-care-backend/src/test/java/com/example/demo/FarmCareBackendApplicationTests.java:[3,29] package org.junit.jupiter.api does not exist
+[ERROR] /C:/Users/dell/Projects/FarmCare/backend/farm-care-backend/src/test/java/com/example/demo/FarmCareBackendApplicationTests.java:[4,45] package org.springframework.boot.test.context does not exist
+[ERROR] /C:/Users/dell/Projects/FarmCare/backend/farm-care-backend/src/test/java/com/example/demo/FarmCareBackendApplicationTests.java:[6,2] cannot find symbol
+  symbol: class SpringBootTest
+[ERROR] /C:/Users/dell/Projects/FarmCare/backend/farm-care-backend/src/test/java/com/example/demo/FarmCareBackendApplicationTests.java:[9,10] cannot find symbol
+  symbol:   class Test
+  location: class com.example.demo.FarmCareBackendApplicationTests
+[INFO] 4 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.233 s
+[INFO] Finished at: 2026-04-01T22:57:01+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:testCompile (default-testCompile) on project farm-care-backend: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/dell/Projects/FarmCare/backend/farm-care-backend/src/test/java/com/example/demo/FarmCareBackendApplicationTests.java:[3,29] package org.junit.jupiter.api does not exist
+[ERROR] /C:/Users/dell/Projects/FarmCare/backend/farm-care-backend/src/test/java/com/example/demo/FarmCareBackendApplicationTests.java:[4,45] package org.springframework.boot.test.context does not exist
+[ERROR] /C:/Users/dell/Projects/FarmCare/backend/farm-care-backend/src/test/java/com/example/demo/FarmCareBackendApplicationTests.java:[6,2] cannot find symbol
+[ERROR]   symbol: class SpringBootTest
+[ERROR] /C:/Users/dell/Projects/FarmCare/backend/farm-care-backend/src/test/java/com/example/demo/FarmCareBackendApplicationTests.java:[9,10] cannot find symbol
+[ERROR]   symbol:   class Test
+[ERROR]   location: class com.example.demo.FarmCareBackendApplicationTests
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
